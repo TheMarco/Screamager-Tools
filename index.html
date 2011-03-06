@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>untitled</title>
+	<meta name="generator" content="TextMate http://macromates.com/">
+	<meta name="author" content="Marco van Hylckama Vlieg">
+	<!-- Date: 2011-02-27 -->
+</head>
+<body>
+<h1>Screamager Animation / Still Creation Tools</h1>
+<p>This page looks like garbage but the goods are here. I'll add a much more dummy-proof explanation later but for now here's instructions for those who sort of know what they're doing.</p> 
+<p>So you want to create your own animations for Screamager? Here are the steps to follow:</p>
+<ol>
+<li>Create a GIF animation in EXACTLY 34x18 pixels. No more, no less.</li>
+<li>For your animation, use the EXACT palette as provided in <a href="allcolors.act">this Photoshop palette file</a>. You MUST use this exact palette or the ceiling will come down and crush you and your family. In addition, the conversion will either fail or your animation will look crappy or not even work at all. Anyway, bad, bad stuff. Extra notes: Both white and black in the palette mean 'pixel off'. For a white pixel use the lighter of the two greys in the palette. Do NOT use transparency. Did I mention you have to use the EXACT palette as provided in <a href="allcolors.act">this palette file</a>?</li>
+<li>Don't worry about frame timing. Screamager currently plays all frames at the same speed so if you want a scene to last longer, just add frames.</li>
+<li>Use the form below to upload your <strong>34x18 pixels animated GIF</strong></li>
+<li>If your file was prepared exactly to the above outlined standards it should convert without errors. Copy/paste the output into a file and place the file on any web host.</li>
+<li>Go to the Animations & Images section in Screamager and enter the URL to your file in the remote animation section.</li>
+<li>Behold: your own Screamager animation</li>
+<li>If you think you've made something worthy of being included in the app distribution, feel free to send it to me by email (marco@i-marco.nl)</li>
+</ol>
+<p>Enjoy!</p>
+<form name="newad" method="post" enctype="multipart/form-data"  action="process.php">
+	<p><label for="image">GIF animation:</label>&nbsp;<input type="file" name="image"></p>
+ 	<input name="Submit" type="submit" value="Upload image">
+ </form>
+<h1>FAQ</h1>
+<p><strong>Q:</strong> Is it me or does your tool suck? It doesn't work!</p>
+<p><strong>A:</strong> It's <em>probably</em> you. Here's a <a href="testimage.gif">test image</a> and here's <a href="test.json">the output for this image</a>.</p>
+</body>
+</html>
